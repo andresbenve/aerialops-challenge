@@ -7,13 +7,13 @@ function Home() {
   const FirstChart = (clientHeight1) => {
     console.log("console clientHeight1clientHeight1", clientHeight1);
 
-    return clientHeight1 > 42 ? (
+    return clientHeight1 < 43 ? (
       <div id="1Row" className="direction">
         <div className="docArrow ">
           <a>Never Forget</a>
         </div>
         <div className="docArrow ">
-          <a>salt water is the healing.</a>
+          <a>salt water </a>
         </div>
       </div>
     ) : (
@@ -40,7 +40,7 @@ function Home() {
             <a>friend</a>
           </div>
           <div className="docArrow ">
-            <a>salt water is the healing.</a>
+            <a>salt water</a>
           </div>
         </div>
       </div>
@@ -50,13 +50,13 @@ function Home() {
   const secondChart = (clientHeight1) => {
     console.log("console clientHeight1clientHeight1", clientHeight1);
 
-    return clientHeight1 > 42 ? (
+    return clientHeight1 > 43 ? (
       <div id="2Row" className="direction">
         <div className="docArrow ">
-          <a>friends & family</a>
+          <a></a>
         </div>
         <div className="docArrow ">
-          <a>salt water is the healing.</a>
+          <a>.</a>
         </div>
       </div>
     ) : (
@@ -74,16 +74,16 @@ function Home() {
           }}
         >
           <div className="docArrow ">
-            <a>documents</a>
+            <a>document</a>
           </div>
           <ChevronLeftIcon className="lefticon" />
         </div>
         <div id="showElement2" className="showElement2">
           <div className="docArrow ">
-            <a>friends & family</a>
+            <a>Vegan Lifestyle</a>
           </div>
           <div className="docArrow ">
-            <a>salt water is the healing.</a>
+            <a>Sustentability in agriculture</a>
           </div>
         </div>
       </div>

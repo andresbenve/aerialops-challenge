@@ -18,13 +18,13 @@ a {
 .wrap {
   margin-top: 50px;
 }
-
+/* 
 .name {
   width: 300px;
 }
 .introduction {
   width: 600px;
-}
+} */
 
 .carbon {
   display: flex;
@@ -46,9 +46,9 @@ a {
   width: fit-content;
 }
 
-.files {
-  min-width: 320px;
-}
+/* .files {
+  min-width: 350px;
+} */
 
 .directionRow {
   display: flex;
